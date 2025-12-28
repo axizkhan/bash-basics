@@ -1,0 +1,34 @@
+Server is listening 5050
+TypeError: res.status.json is not a function
+    at file:///media/ring/New%20Volume/project/backend-class/index.js:133:23
+    at Layer.handleRequest (/media/ring/New Volume/project/backend-class/node_modules/router/lib/layer.js:152:17)
+    at next (/media/ring/New Volume/project/backend-class/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/media/ring/New Volume/project/backend-class/node_modules/router/lib/route.js:117:3)
+    at handle (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/media/ring/New Volume/project/backend-class/node_modules/router/lib/layer.js:152:17)
+    at /media/ring/New Volume/project/backend-class/node_modules/router/index.js:295:15
+    at param (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:600:14)
+    at param (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:610:14)
+    at processParams (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:664:3)
+TypeError: res.status.json is not a function
+    at file:///media/ring/New%20Volume/project/backend-class/index.js:133:23
+    at Layer.handleRequest (/media/ring/New Volume/project/backend-class/node_modules/router/lib/layer.js:152:17)
+    at next (/media/ring/New Volume/project/backend-class/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/media/ring/New Volume/project/backend-class/node_modules/router/lib/route.js:117:3)
+    at handle (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/media/ring/New Volume/project/backend-class/node_modules/router/lib/layer.js:152:17)
+    at /media/ring/New Volume/project/backend-class/node_modules/router/index.js:295:15
+    at param (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:600:14)
+    at param (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:610:14)
+    at processParams (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:664:3)
+TypeError: res.status.json is not a function
+    at file:///media/ring/New%20Volume/project/backend-class/index.js:133:23
+    at Layer.handleRequest (/media/ring/New Volume/project/backend-class/node_modules/router/lib/layer.js:152:17)
+    at next (/media/ring/New Volume/project/backend-class/node_modules/router/lib/route.js:157:13)
+    at Route.dispatch (/media/ring/New Volume/project/backend-class/node_modules/router/lib/route.js:117:3)
+    at handle (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:435:11)
+    at Layer.handleRequest (/media/ring/New Volume/project/backend-class/node_modules/router/lib/layer.js:152:17)
+    at /media/ring/New Volume/project/backend-class/node_modules/router/index.js:295:15
+    at param (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:600:14)
+    at param (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:610:14)
+    at processParams (/media/ring/New Volume/project/backend-class/node_modules/router/index.js:664:3)

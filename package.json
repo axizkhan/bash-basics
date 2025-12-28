@@ -1,0 +1,28 @@
+{
+  "name": "backend-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HelperSetu/backend-class.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/HelperSetu/backend-class/issues"
+  },
+  "homepage": "https://github.com/HelperSetu/backend-class#readme",
+  "volta": {
+    "node": "22.21.1",
+    "npm": "11.7.0"
+  },
+  "dependencies": {
+    "express": "~5.2.1"
+  }
+}
