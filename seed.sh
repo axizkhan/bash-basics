@@ -11,3 +11,8 @@ for name in "${animes[@]}"; do
 done
 
 echo "Data seeded"
+
+
+for(let fruit of fruits){
+  console.log(fruit)
+}

@@ -9,10 +9,10 @@ echo $fullname
 num1=10
 num2=20
 
-sum=$((num1+num2))
-difference=$((num1-num2))
-product=$((num1*num2))
-quotient=$((num1/num2))
+sum=$((20 + 30))
+difference=$(($num1 - $num2))
+product=$(($num1 * $num2))
+quotient=$(($num1 / $num2))
 
 echo "a= $num1, b=$num2"
 echo "Sum:$sum, Difference: $difference, Product: $product, Quotient: $quotient"
@@ -39,9 +39,11 @@ declare -A colors
 colors[apple]="red"
 colors[mango]="yellow"
 colors[grape]="green"
+colors[watermalen]="green-black"
 
 echo ${colors[apple]}
 echo ${colors[mango]}
+echo ${colors[watermalen]}
 
 #deleting field from associative array
 

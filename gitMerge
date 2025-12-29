@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# branch name
+devBranch=$(git branch --show-current)
+
+if [ -z "$devBranch" ]; then
+  echo "Error: Branch name not provided"
+  exit 1
+fi
+
+echo "Switching to main branch..."
+git switch main || exit 1
+
+echo "Pulling latest changes from main..."
+git pull || exit 1
+
+echo "Switching back to $devBranch..."
+git switch "$devBranch" || exit 1
+
+echo "Merging main into $devBranch..."
+git merge main
+
+
+echo "Merge completed for branch: $devBranch"
+
+
+
+
